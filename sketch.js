@@ -95,19 +95,18 @@ function draw() {
 
 function mouseDragged()
 {
-	Matter.Body.setPosition(stoneObj.body, {x:mouseX, y:mouseY}) 
+	M
 }
 
 function mouseReleased()
 {
-	launcherObject.fly();
+	
     // distance=int(dist(stoneObj.x,stoneObj.y,mango1.x,mango1.y));
 }
 
 function keyPressed() {
 	if (keyCode === 32) {
-    Matter.Body.setPosition(stoneObj.body, {x:235, y:420}) 
-	  launcherObject.attach(stoneObj.body);
+   
 	}
   }
 
